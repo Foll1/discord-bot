@@ -1,14 +1,16 @@
+require('dotenv').config(); // เพิ่มบรรทัดนี้ด้านบนสุด
 const Discord = require('discord.js-selfbot-v13');
+
 const userTokens = [
-    'YOUR_TOKEN_1',
+    process.env.TOKEN1
 ];
 
 const streamingUrls = [
-    'https://twitch.tv/streamer1',
+    'https://twitch.tv/streamer1'
 ];
 
 const streamingNames = [
-    'Streamer1',
+    'Streamer1'
 ];
 
 const clients = [];
