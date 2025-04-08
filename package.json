@@ -1,0 +1,11 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "user.js",
+  "scripts": {
+    "start": "node user.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^1.0.0"
+  }
+}
