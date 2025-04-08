@@ -1,17 +1,14 @@
 const Discord = require('discord.js-selfbot-v13');
 const userTokens = [
     'YOUR_TOKEN_1',
-    'YOUR_TOKEN_2',
 ];
 
 const streamingUrls = [
     'https://twitch.tv/streamer1',
-    'https://twitch.tv/streamer2',
 ];
 
 const streamingNames = [
     'Streamer1',
-    'Streamer2',
 ];
 
 const clients = [];
